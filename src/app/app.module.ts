@@ -9,6 +9,7 @@ import { A003SubjectComponent } from './rxjs/a003-subject/a003-subject.component
 import { A004OfComponent } from './rxjs/a004-of/a004-of.component';
 import { A005FromEventComponent } from './rxjs/a005-from-event/a005-from-event.component';
 import { A006RangeComponent } from './rxjs/a006-range/a006-range.component';
+import { A007IntervalTimerComponent } from './rxjs/a007-interval-timer/a007-interval-timer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { A006RangeComponent } from './rxjs/a006-range/a006-range.component';
     A003SubjectComponent,
     A004OfComponent,
     A005FromEventComponent,
-    A006RangeComponent
+    A006RangeComponent,
+    A007IntervalTimerComponent
   ],
   imports: [
     BrowserModule,
