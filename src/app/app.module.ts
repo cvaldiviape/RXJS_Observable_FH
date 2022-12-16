@@ -18,6 +18,7 @@ import { A012MapToComponent } from './rxjs/a012-map-to/a012-map-to.component';
 import { A013FilterComponent } from './rxjs/a013-filter/a013-filter.component';
 import { A014TapComponent } from './rxjs/a014-tap/a014-tap.component';
 import { A015ReduceComponent } from './rxjs/a015-reduce/a015-reduce.component';
+import { A016ScanComponent } from './rxjs/a016-scan/a016-scan.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { A015ReduceComponent } from './rxjs/a015-reduce/a015-reduce.component';
     A012MapToComponent,
     A013FilterComponent,
     A014TapComponent,
-    A015ReduceComponent
+    A015ReduceComponent,
+    A016ScanComponent
   ],
   imports: [
     BrowserModule,
