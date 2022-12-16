@@ -14,6 +14,7 @@ import { A008AsyncSchedulerComponent } from './rxjs/a008-async-scheduler/a008-as
 import { A009OfFromComponent } from './rxjs/a009-of-from/a009-of-from.component';
 import { A010MapComponent } from './rxjs/a010-map/a010-map.component';
 import { A011PluckComponent } from './rxjs/a011-pluck/a011-pluck.component';
+import { A012MapToComponent } from './rxjs/a012-map-to/a012-map-to.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { A011PluckComponent } from './rxjs/a011-pluck/a011-pluck.component';
     A008AsyncSchedulerComponent,
     A009OfFromComponent,
     A010MapComponent,
-    A011PluckComponent
+    A011PluckComponent,
+    A012MapToComponent
   ],
   imports: [
     BrowserModule,
