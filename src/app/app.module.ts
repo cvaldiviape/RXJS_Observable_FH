@@ -13,6 +13,7 @@ import { A007IntervalTimerComponent } from './rxjs/a007-interval-timer/a007-inte
 import { A008AsyncSchedulerComponent } from './rxjs/a008-async-scheduler/a008-async-scheduler.component';
 import { A009OfFromComponent } from './rxjs/a009-of-from/a009-of-from.component';
 import { A010MapComponent } from './rxjs/a010-map/a010-map.component';
+import { A011PluckComponent } from './rxjs/a011-pluck/a011-pluck.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { A010MapComponent } from './rxjs/a010-map/a010-map.component';
     A007IntervalTimerComponent,
     A008AsyncSchedulerComponent,
     A009OfFromComponent,
-    A010MapComponent
+    A010MapComponent,
+    A011PluckComponent
   ],
   imports: [
     BrowserModule,
