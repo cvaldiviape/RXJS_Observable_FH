@@ -12,6 +12,7 @@ import { A006RangeComponent } from './rxjs/a006-range/a006-range.component';
 import { A007IntervalTimerComponent } from './rxjs/a007-interval-timer/a007-interval-timer.component';
 import { A008AsyncSchedulerComponent } from './rxjs/a008-async-scheduler/a008-async-scheduler.component';
 import { A009OfFromComponent } from './rxjs/a009-of-from/a009-of-from.component';
+import { A010MapComponent } from './rxjs/a010-map/a010-map.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { A009OfFromComponent } from './rxjs/a009-of-from/a009-of-from.component'
     A006RangeComponent,
     A007IntervalTimerComponent,
     A008AsyncSchedulerComponent,
-    A009OfFromComponent
+    A009OfFromComponent,
+    A010MapComponent
   ],
   imports: [
     BrowserModule,
