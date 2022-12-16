@@ -16,6 +16,7 @@ import { A010MapComponent } from './rxjs/a010-map/a010-map.component';
 import { A011PluckComponent } from './rxjs/a011-pluck/a011-pluck.component';
 import { A012MapToComponent } from './rxjs/a012-map-to/a012-map-to.component';
 import { A013FilterComponent } from './rxjs/a013-filter/a013-filter.component';
+import { A014TapComponent } from './rxjs/a014-tap/a014-tap.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { A013FilterComponent } from './rxjs/a013-filter/a013-filter.component';
     A010MapComponent,
     A011PluckComponent,
     A012MapToComponent,
-    A013FilterComponent
+    A013FilterComponent,
+    A014TapComponent
   ],
   imports: [
     BrowserModule,

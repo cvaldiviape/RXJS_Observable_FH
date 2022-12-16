@@ -21,4 +21,7 @@ export class A012MapToComponent {
 
   }
 
+  // ejemplo, imaginate que un posteo HTTP se ejecute correctamente pero la respuesta cambió eventualmente en el backend, y esto 
+  // está rompiendo tu código en el front-end, entonces usas el mapTo, emites la respuesta que necesitas y resuelves el problema
+  // con un simple operador.
 }
