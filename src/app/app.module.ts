@@ -15,6 +15,7 @@ import { A009OfFromComponent } from './rxjs/a009-of-from/a009-of-from.component'
 import { A010MapComponent } from './rxjs/a010-map/a010-map.component';
 import { A011PluckComponent } from './rxjs/a011-pluck/a011-pluck.component';
 import { A012MapToComponent } from './rxjs/a012-map-to/a012-map-to.component';
+import { A013FilterComponent } from './rxjs/a013-filter/a013-filter.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { A012MapToComponent } from './rxjs/a012-map-to/a012-map-to.component';
     A009OfFromComponent,
     A010MapComponent,
     A011PluckComponent,
-    A012MapToComponent
+    A012MapToComponent,
+    A013FilterComponent
   ],
   imports: [
     BrowserModule,
