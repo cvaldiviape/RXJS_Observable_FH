@@ -20,6 +20,7 @@ import { A014TapComponent } from './rxjs/a014-tap/a014-tap.component';
 import { A015ReduceComponent } from './rxjs/a015-reduce/a015-reduce.component';
 import { A016ScanComponent } from './rxjs/a016-scan/a016-scan.component';
 import { A017TakeComponent } from './rxjs/a017-take/a017-take.component';
+import { A018FirstComponent } from './rxjs/a018-first/a018-first.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { A017TakeComponent } from './rxjs/a017-take/a017-take.component';
     A014TapComponent,
     A015ReduceComponent,
     A016ScanComponent,
-    A017TakeComponent
+    A017TakeComponent,
+    A018FirstComponent
   ],
   imports: [
     BrowserModule,
