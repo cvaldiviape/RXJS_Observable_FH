@@ -21,6 +21,7 @@ import { A015ReduceComponent } from './rxjs/a015-reduce/a015-reduce.component';
 import { A016ScanComponent } from './rxjs/a016-scan/a016-scan.component';
 import { A017TakeComponent } from './rxjs/a017-take/a017-take.component';
 import { A018FirstComponent } from './rxjs/a018-first/a018-first.component';
+import { A019TakeWhileComponent } from './rxjs/a019-take-while/a019-take-while.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { A018FirstComponent } from './rxjs/a018-first/a018-first.component';
     A015ReduceComponent,
     A016ScanComponent,
     A017TakeComponent,
-    A018FirstComponent
+    A018FirstComponent,
+    A019TakeWhileComponent
   ],
   imports: [
     BrowserModule,
