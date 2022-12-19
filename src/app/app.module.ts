@@ -30,6 +30,7 @@ import { A024DistinctUntilKeyChangedComponent } from './rxjs/a024-distinct-until
 import { A025DebounceTimeComponent } from './rxjs/a025-debounce-time/a025-debounce-time.component';
 import { A026ThrottleTimeComponent } from './rxjs/a026-throttle-time/a026-throttle-time.component';
 import { A027SampleTimeComponent } from './rxjs/a027-sample-time/a027-sample-time.component';
+import { A028SampleComponent } from './rxjs/a028-sample/a028-sample.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import { A027SampleTimeComponent } from './rxjs/a027-sample-time/a027-sample-tim
     A024DistinctUntilKeyChangedComponent,
     A025DebounceTimeComponent,
     A026ThrottleTimeComponent,
-    A027SampleTimeComponent
+    A027SampleTimeComponent,
+    A028SampleComponent,
   ],
   imports: [
     BrowserModule,
