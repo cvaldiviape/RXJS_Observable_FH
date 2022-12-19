@@ -27,6 +27,7 @@ import { A021SkipComponent } from './rxjs/a021-skip/a021-skip.component';
 import { A022DistinctComponent } from './rxjs/a022-distinct/a022-distinct.component';
 import { A023DistinctUntilChangedComponent } from './rxjs/a023-distinct-until-changed/a023-distinct-until-changed.component';
 import { A024DistinctUntilKeyChangedComponent } from './rxjs/a024-distinct-until-key-changed/a024-distinct-until-key-changed.component';
+import { A025DebounceTimeComponent } from './rxjs/a025-debounce-time/a025-debounce-time.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { A024DistinctUntilKeyChangedComponent } from './rxjs/a024-distinct-until
     A021SkipComponent,
     A022DistinctComponent,
     A023DistinctUntilChangedComponent,
-    A024DistinctUntilKeyChangedComponent
+    A024DistinctUntilKeyChangedComponent,
+    A025DebounceTimeComponent
   ],
   imports: [
     BrowserModule,
