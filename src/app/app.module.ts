@@ -24,6 +24,7 @@ import { A018FirstComponent } from './rxjs/a018-first/a018-first.component';
 import { A019TakeWhileComponent } from './rxjs/a019-take-while/a019-take-while.component';
 import { A020TakeUntilComponent } from './rxjs/a020-take-until/a020-take-until.component';
 import { A021SkipComponent } from './rxjs/a021-skip/a021-skip.component';
+import { A022DistinctComponent } from './rxjs/a022-distinct/a022-distinct.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { A021SkipComponent } from './rxjs/a021-skip/a021-skip.component';
     A018FirstComponent,
     A019TakeWhileComponent,
     A020TakeUntilComponent,
-    A021SkipComponent
+    A021SkipComponent,
+    A022DistinctComponent
   ],
   imports: [
     BrowserModule,
