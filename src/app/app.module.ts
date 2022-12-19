@@ -26,6 +26,7 @@ import { A020TakeUntilComponent } from './rxjs/a020-take-until/a020-take-until.c
 import { A021SkipComponent } from './rxjs/a021-skip/a021-skip.component';
 import { A022DistinctComponent } from './rxjs/a022-distinct/a022-distinct.component';
 import { A023DistinctUntilChangedComponent } from './rxjs/a023-distinct-until-changed/a023-distinct-until-changed.component';
+import { A024DistinctUntilKeyChangedComponent } from './rxjs/a024-distinct-until-key-changed/a024-distinct-until-key-changed.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { A023DistinctUntilChangedComponent } from './rxjs/a023-distinct-until-ch
     A020TakeUntilComponent,
     A021SkipComponent,
     A022DistinctComponent,
-    A023DistinctUntilChangedComponent
+    A023DistinctUntilChangedComponent,
+    A024DistinctUntilKeyChangedComponent
   ],
   imports: [
     BrowserModule,
