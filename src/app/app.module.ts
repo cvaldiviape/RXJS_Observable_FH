@@ -33,6 +33,7 @@ import { A027SampleTimeComponent } from './rxjs/05-operators-time/a027-sample-ti
 import { A028SampleComponent } from './rxjs/05-operators-time/a028-sample/a028-sample.component';
 import { A029AuditTimeComponent } from './rxjs/05-operators-time/a029-audit-time/a029-audit-time.component';
 import { A030FetchComponent } from './rxjs/06-ajax/a030-fetch/a030-fetch.component';
+import { A031FetchRxjsComponent } from './rxjs/06-ajax/a031-fetch-rxjs/a031-fetch-rxjs.component';
 
 @NgModule({
   declarations: [
@@ -67,6 +68,7 @@ import { A030FetchComponent } from './rxjs/06-ajax/a030-fetch/a030-fetch.compone
     A028SampleComponent,
     A029AuditTimeComponent,
     A030FetchComponent,
+    A031FetchRxjsComponent,
   ],
   imports: [
     BrowserModule,
