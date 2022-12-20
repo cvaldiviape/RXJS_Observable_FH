@@ -35,6 +35,7 @@ import { A029AuditTimeComponent } from './rxjs/05-operators-time/a029-audit-time
 import { A030FetchComponent } from './rxjs/06-ajax/a030-fetch/a030-fetch.component';
 import { A031FetchRxjsComponent } from './rxjs/06-ajax/a031-fetch-rxjs/a031-fetch-rxjs.component';
 import { A032GetJsonComponent } from './rxjs/06-ajax/a032-get-json/a032-get-json.component';
+import { A033GetJsonVsAjaxComponent } from './rxjs/06-ajax/a033-get-json-vs-ajax/a033-get-json-vs-ajax.component';
 
 @NgModule({
   declarations: [
@@ -71,6 +72,7 @@ import { A032GetJsonComponent } from './rxjs/06-ajax/a032-get-json/a032-get-json
     A030FetchComponent,
     A031FetchRxjsComponent,
     A032GetJsonComponent,
+    A033GetJsonVsAjaxComponent,
   ],
   imports: [
     BrowserModule,
