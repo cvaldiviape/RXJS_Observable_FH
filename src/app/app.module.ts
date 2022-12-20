@@ -31,6 +31,7 @@ import { A025DebounceTimeComponent } from './rxjs/a025-debounce-time/a025-deboun
 import { A026ThrottleTimeComponent } from './rxjs/a026-throttle-time/a026-throttle-time.component';
 import { A027SampleTimeComponent } from './rxjs/a027-sample-time/a027-sample-time.component';
 import { A028SampleComponent } from './rxjs/a028-sample/a028-sample.component';
+import { A029AuditTimeComponent } from './rxjs/a029-audit-time/a029-audit-time.component';
 
 @NgModule({
   declarations: [
@@ -63,6 +64,7 @@ import { A028SampleComponent } from './rxjs/a028-sample/a028-sample.component';
     A026ThrottleTimeComponent,
     A027SampleTimeComponent,
     A028SampleComponent,
+    A029AuditTimeComponent,
   ],
   imports: [
     BrowserModule,
