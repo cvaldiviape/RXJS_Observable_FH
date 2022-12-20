@@ -36,6 +36,7 @@ import { A030FetchComponent } from './rxjs/06-ajax/a030-fetch/a030-fetch.compone
 import { A031FetchRxjsComponent } from './rxjs/06-ajax/a031-fetch-rxjs/a031-fetch-rxjs.component';
 import { A032GetJsonComponent } from './rxjs/06-ajax/a032-get-json/a032-get-json.component';
 import { A033GetJsonVsAjaxComponent } from './rxjs/06-ajax/a033-get-json-vs-ajax/a033-get-json-vs-ajax.component';
+import { A034VerbsHttpComponent } from './rxjs/06-ajax/a034-verbs-http/a034-verbs-http.component';
 
 @NgModule({
   declarations: [
@@ -73,6 +74,7 @@ import { A033GetJsonVsAjaxComponent } from './rxjs/06-ajax/a033-get-json-vs-ajax
     A031FetchRxjsComponent,
     A032GetJsonComponent,
     A033GetJsonVsAjaxComponent,
+    A034VerbsHttpComponent,
   ],
   imports: [
     BrowserModule,
