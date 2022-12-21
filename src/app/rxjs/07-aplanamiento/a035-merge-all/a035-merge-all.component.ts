@@ -1,7 +1,9 @@
 import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
-import { fromEvent, Observable } from 'rxjs';
+import { fromEvent, Observable, ObservableInput } from 'rxjs';
 import { ajax } from 'rxjs/ajax';
 import { debounceTime, map, mergeAll, pluck } from 'rxjs/operators';
+import { GithubResponse } from '../../interfaces/github-response';
+import { User } from '../../interfaces/user';
 
 @Component({
   selector: 'app-a035-merge-all',
@@ -11,9 +13,11 @@ import { debounceTime, map, mergeAll, pluck } from 'rxjs/operators';
 export class A035MergeAllComponent implements AfterViewInit {
   @ViewChild('miInput') miInput!: ElementRef<HTMLInputElement>;
   @ViewChild('orderList') orderList!: ElementRef;
+  public users: User[] = [];
+
 
   constructor() { }
-
+  
   ngAfterViewInit(): void {
     const miInputObs$ = fromEvent<KeyboardEvent>(this.miInput?.nativeElement, 'keyup');
 
@@ -22,12 +26,12 @@ export class A035MergeAllComponent implements AfterViewInit {
       // esta esperando a que el usuario deje de escribir, y despues de 500 ms recien se emitira un valor.
       debounceTime<KeyboardEvent>(500), // indico que si se emite varios valores rapidamente, entonces que termine de emitir los valores, despues de ello tendra que pasar 500 ms para que pueda emitir un valor.
       pluck<KeyboardEvent, string>('target', 'value'),
-      map<string, Observable<any>>((value) => ajax.getJSON(`https://api.github.com/search/users?q=${value}`)),
-      mergeAll<Observable<any>>(), // se va realizar una subcripcion de Observable que retornar el operador "map()" y por consiguiente emitir el resultado de esa subcripcion
-      pluck<Observable<any>, any[]>('items')
+      map<string, ObservableInput<Observable<GithubResponse>>>((value) => ajax.getJSON(`https://api.github.com/search/users?q=${value}`)),
+      mergeAll<Observable<GithubResponse>>(), // realizara una subcripcion de Observable que retornar el "Observable principal" y por consiguienre retornara el producto de la subcripcion de ese Observable retornado.
+      pluck<Observable<GithubResponse>, User[]>('items')
     ).subscribe({
-      next: (x) => {
-        x.forEach(x => console.log(x.login))
+      next: (x: User[]) => {;
+        this.users = x;
       },
       error: (err) => {
         console.log('error:', err)
@@ -37,5 +41,7 @@ export class A035MergeAllComponent implements AfterViewInit {
       }
     });
   }
+
+  // https://app.quicktype.io/
 
 }

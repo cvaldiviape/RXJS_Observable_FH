@@ -3,3 +3,11 @@
 <input #miInput type="text">
 
 <ol #orderList></ol>
+
+<div *ngIf="users.length > 0">
+  <div *ngFor="let x of users">
+    {{x['login']}}
+    <img [src]="x['avatar_url']">
+
+  </div>
+</div>
