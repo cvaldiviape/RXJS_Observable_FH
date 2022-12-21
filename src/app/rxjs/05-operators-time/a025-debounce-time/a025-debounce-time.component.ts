@@ -17,7 +17,7 @@ export class A025DebounceTimeComponent implements AfterViewInit  {
     // TODO - "debounceTime()": me permite definir que un valor se emita despues de un tiempo definido, ademas retringe la cantidad de valores que se emitan cada cierto tiempo, veamos el EJM:
     // this.click$.pipe(
     //   debounceTime(3000) // en este caso indico que el primera valor se emita despues de 3 segundos, posteriormente cuando se emita otro valor repetidas veces, es decir, si emito varios valores en menos de 3 segundos,
-    //                      // se bloqueara mi observable, osea, esperara a que este haciendo spam de los valores emitidos, cuando deje de hacer spam, pasaran 3 segungos y "RECIEN SE EMITIRA EL SIGUIENTE VALOR".
+                            // se bloqueara mi observable, osea, esperara a que este haciendo spam de los valores emitidos, cuando deje de hacer spam, pasaran 3 segungos y "RECIEN SE EMITIRA EL SIGUIENTE VALOR".
     // ).subscribe({
     //   next: (value) => {
     //     console.log('next:', value)
