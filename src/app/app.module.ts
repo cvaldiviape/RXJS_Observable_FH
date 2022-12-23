@@ -38,6 +38,8 @@ import { A032GetJsonComponent } from './rxjs/06-ajax/a032-get-json/a032-get-json
 import { A033GetJsonVsAjaxComponent } from './rxjs/06-ajax/a033-get-json-vs-ajax/a033-get-json-vs-ajax.component';
 import { A034VerbsHttpComponent } from './rxjs/06-ajax/a034-verbs-http/a034-verbs-http.component';
 import { A035MergeAllComponent } from './rxjs/07-aplanamiento/a035-merge-all/a035-merge-all.component';
+import { A036MergeMapComponent } from './rxjs/07-aplanamiento/a036-merge-map/a036-merge-map.component';
+import { A036MergeMapX2Component } from './rxjs/07-aplanamiento/a036-merge-map-x2/a036-merge-map-x2.component';
 
 @NgModule({
   declarations: [
@@ -77,6 +79,8 @@ import { A035MergeAllComponent } from './rxjs/07-aplanamiento/a035-merge-all/a03
     A033GetJsonVsAjaxComponent,
     A034VerbsHttpComponent,
     A035MergeAllComponent,
+    A036MergeMapComponent,
+    A036MergeMapX2Component,
   ],
   imports: [
     BrowserModule,
