@@ -36,7 +36,6 @@ export class A036MergeMapX2Component {
     const url = 'https://httpbin.org/delay/1?arg=';
 
     miInputObs$.pipe(
-      debounceTime<KeyboardEvent>(500), 
       pluck('target', 'value'),
       mergeMap(value => ajax.getJSON(url + value))
     ).subscribe(console.log);
