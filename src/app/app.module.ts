@@ -44,6 +44,7 @@ import { A037SwitchMapComponent } from './rxjs/07-aplanamiento/a037-switch-map/a
 import { A038ConcatMapComponent } from './rxjs/07-aplanamiento/a038-concat-map/a038-concat-map.component';
 import { A039ExhaustMapComponent } from './rxjs/07-aplanamiento/a039-exhaust-map/a039-exhaust-map.component';
 import { A040StartWithComponent } from './rxjs/08-operators-and-function-combine/a040-start-with/a040-start-with.component';
+import { A041EndWithComponent } from './rxjs/08-operators-and-function-combine/a041-end-with/a041-end-with.component';
 
 @NgModule({
   declarations: [
@@ -89,6 +90,7 @@ import { A040StartWithComponent } from './rxjs/08-operators-and-function-combine
     A038ConcatMapComponent,
     A039ExhaustMapComponent,
     A040StartWithComponent,
+    A041EndWithComponent,
   ],
   imports: [
     BrowserModule,
