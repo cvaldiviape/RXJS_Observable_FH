@@ -41,6 +41,7 @@ import { A035MergeAllComponent } from './rxjs/07-aplanamiento/a035-merge-all/a03
 import { A036MergeMapComponent } from './rxjs/07-aplanamiento/a036-merge-map/a036-merge-map.component';
 import { A036MergeMapX2Component } from './rxjs/07-aplanamiento/a036-merge-map-x2/a036-merge-map-x2.component';
 import { A037SwitchMapComponent } from './rxjs/07-aplanamiento/a037-switch-map/a037-switch-map.component';
+import { A038ConcatMapComponent } from './rxjs/07-aplanamiento/a038-concat-map/a038-concat-map.component';
 
 @NgModule({
   declarations: [
@@ -83,6 +84,7 @@ import { A037SwitchMapComponent } from './rxjs/07-aplanamiento/a037-switch-map/a
     A036MergeMapComponent,
     A036MergeMapX2Component,
     A037SwitchMapComponent,
+    A038ConcatMapComponent,
   ],
   imports: [
     BrowserModule,
