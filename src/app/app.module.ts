@@ -47,6 +47,7 @@ import { A040StartWithComponent } from './rxjs/08-operators-and-function-combine
 import { A041EndWithComponent } from './rxjs/08-operators-and-function-combine/a041-end-with/a041-end-with.component';
 import { A042ConcatComponent } from './rxjs/08-operators-and-function-combine/a042-concat/a042-concat.component';
 import { A043MergeComponent } from './rxjs/08-operators-and-function-combine/a043-merge/a043-merge.component';
+import { A044CombineLatestComponent } from './rxjs/08-operators-and-function-combine/a044-combine-latest/a044-combine-latest.component';
 
 @NgModule({
   declarations: [
@@ -95,6 +96,7 @@ import { A043MergeComponent } from './rxjs/08-operators-and-function-combine/a04
     A041EndWithComponent,
     A042ConcatComponent,
     A043MergeComponent,
+    A044CombineLatestComponent,
   ],
   imports: [
     BrowserModule,
