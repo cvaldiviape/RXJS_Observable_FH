@@ -49,6 +49,12 @@ import { A042ConcatComponent } from './rxjs/08-operators-and-function-combine/a0
 import { A043MergeComponent } from './rxjs/08-operators-and-function-combine/a043-merge/a043-merge.component';
 import { A044CombineLatestComponent } from './rxjs/08-operators-and-function-combine/a044-combine-latest/a044-combine-latest.component';
 import { A045ForkJoinComponent } from './rxjs/08-operators-and-function-combine/a045-fork-join/a045-fork-join.component';
+import { A001CapitalizarComponent } from './rxjs/09-ejercicios/a001-capitalizar/a001-capitalizar.component';
+import { A002ReduceComponent } from './rxjs/09-ejercicios/a002-reduce/a002-reduce.component';
+import { A003RandomComponent } from './rxjs/09-ejercicios/a003-random/a003-random.component';
+import { A004CuentaRegresivaComponent } from './rxjs/09-ejercicios/a004-cuenta-regresiva/a004-cuenta-regresiva.component';
+import { A005CombinarComponent } from './rxjs/09-ejercicios/a005-combinar/a005-combinar.component';
+import { A006LukeSkywalkerComponent } from './rxjs/09-ejercicios/a006-luke-skywalker/a006-luke-skywalker.component';
 
 @NgModule({
   declarations: [
@@ -99,6 +105,12 @@ import { A045ForkJoinComponent } from './rxjs/08-operators-and-function-combine/
     A043MergeComponent,
     A044CombineLatestComponent,
     A045ForkJoinComponent,
+    A001CapitalizarComponent,
+    A002ReduceComponent,
+    A003RandomComponent,
+    A004CuentaRegresivaComponent,
+    A005CombinarComponent,
+    A006LukeSkywalkerComponent,
   ],
   imports: [
     BrowserModule,
