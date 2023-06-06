@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { fromEvent, interval, Observable, of } from 'rxjs';
-import { last, map, mergeMap, take, takeUntil } from 'rxjs/operators';
+import { last, map, mergeMap, switchMap, take, takeUntil } from 'rxjs/operators';
 
 @Component({
   selector: 'app-a036-merge-map',

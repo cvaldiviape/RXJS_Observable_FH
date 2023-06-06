@@ -38,7 +38,7 @@ export class A025DebounceTimeComponent implements AfterViewInit  {
     this.miInputObs$.pipe(
       debounceTime(1000), // con esto evite que se vuelva a emitir "diferentes o iguales" valores, es decir, despues q escribi en mi "input" pasara 1 segundos para que recien se emita el valor final que deseo.
       pluck<KeyboardEvent, string>('target', 'value'), // solo quiero el valor que tenga la propiedad "target" que a asu vez tiene la propiedad "value"
-      distinctUntilChanged() // fue necesario agregare este opeador, ya que asi evito que emite un valor repetido de forma innecesaria, es decir, solo emita un proximo valor, si el anterior emitido ha "cambiado".
+      distinctUntilChanged() // fue necesario agregare este operador, ya que asi evito que emite un valor repetido de forma innecesaria, es decir, solo emita un proximo valor, si el anterior emitido ha "cambiado".
     ) // TODO - este tipo de ejercicio lo podria aplicar cuando realizo peticiones HTTP, es decir, evitaria estar haciendo peticiones de forma innecesaria, y asi mejoraria el rendimiento de mi aplicacion.
     .subscribe({
       next: (value) => {
